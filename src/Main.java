@@ -28,10 +28,6 @@ public class Main {
 		Person find = people.getChild(3);
 		find.print();
 		
-		ArrayList<Person> childrenList = people.getChildren();
-		for (Person p: childrenList) {
-			p.print();
-		}
 	}
 
 }
